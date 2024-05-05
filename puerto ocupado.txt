@@ -1,6 +1,0 @@
-lsof-i:5000 #lsof -i:puerto enseña que proceso está usando este puerto
-
-kill 12345 # kill PID mata el proceso con ID => PID
-
-
-lsof -i :25 |grep LISTEN

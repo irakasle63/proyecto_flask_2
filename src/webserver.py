@@ -8,7 +8,7 @@ cors = CORS(app)
 
 @app.route("/") #Si me pides /
 def hello_root():
-    return '<h1>Hola, te escucho</h1>'
+    return '<h1>Hola, este es el endpoint de la ruta raiz de Proyecto Flask 2</h1>'
 
 @app.route("/cities", methods=['GET'])#Si me pides /cities con GET
 def get_cities():
